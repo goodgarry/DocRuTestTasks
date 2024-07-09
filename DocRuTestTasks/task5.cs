@@ -31,6 +31,8 @@ namespace Tasks
             Console.WriteLine(ReturnFive7());
         }
 
+        // Задача 5
+
         static int ReturnFive1()
         {
             return "ДокРу".Length;
@@ -68,11 +70,13 @@ namespace Tasks
             var sixteen = (int)Math.Ceiling(e_square);
             return (int)twenty_one%sixteen;
         }
+
         static int ReturnFive6()
         {
             var five = Math.Round(Math.Sqrt(Math.Pow(Math.E, Math.PI)));
             return (int)five;
         }
+
         static int ReturnFive7()
         {
             return '';

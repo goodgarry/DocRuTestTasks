@@ -41,6 +41,9 @@ namespace Tasks
             }
         }
 
+
+
+        // Задача 1
         static int SumOfDigits(int n)
         {
             if (n < 0) throw new Exception("Число не является натуральным");

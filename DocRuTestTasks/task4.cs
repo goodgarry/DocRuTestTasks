@@ -31,6 +31,8 @@ namespace Tasks
             Console.WriteLine(PyramideRowCalculate(4)); // 60
             Console.WriteLine(PyramideRowCalculate(5)); // 105
         }
+
+        // Задача 4
         static int PyramideRowCalculate(int rowIndex)
         {
             // Вычисляем начальное число строки

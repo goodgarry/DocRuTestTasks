@@ -33,7 +33,7 @@ namespace Tasks
             }
         }
 
-
+        // Задача 3
         static int DescendingOrderSort(int num)
         {
             if (num < 0) throw new Exception("Число меньше нуля");

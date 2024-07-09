@@ -27,6 +27,9 @@ namespace Tasks
             Console.WriteLine(PrintDictionary(CointsCounter(4.935)));    // {'Nickels': 0, 'Pennies': 4, 'Dimes': 0, 'Quarters': 0}
         }
 
+
+
+        // Задача 2
         static Dictionary<string, int> CointsCounter(double cents)
         {
             // Словарь для хранения количества каждой монеты
@@ -63,6 +66,7 @@ namespace Tasks
             return coinCount;
         }
 
+        // Функция для вывода в виде строки
         public static string PrintDictionary(Dictionary<string, int> dict)
         {
             return $"{{'Nickels': {dict["Nickels"]}, 'Pennies': {dict["Pennies"]}, 'Dimes': {dict["Dimes"]}, 'Quarters': {dict["Quarters"]}}}";
