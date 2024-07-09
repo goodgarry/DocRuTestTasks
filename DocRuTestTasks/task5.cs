@@ -30,10 +30,12 @@ namespace Tasks
             Console.WriteLine(ReturnFive6());
             Console.WriteLine(ReturnFive7());
         }
+
         static int ReturnFive1()
         {
             return "ДокРу".Length;
         }
+
         enum Counter
         {
             Zero,
@@ -43,6 +45,7 @@ namespace Tasks
             Four,
             Five
         }
+
         static int ReturnFive2()
         {
             return (int)Counter.Five;
@@ -52,6 +55,7 @@ namespace Tasks
         {
             return Regex.Matches("mmmmm", "m").Count;
         }
+
         static int ReturnFive4()
         {
             return TimeSpan.FromMinutes(5).Minutes;
